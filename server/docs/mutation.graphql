@@ -1,0 +1,27 @@
+mutation {
+  CreateUser(data: { username: "cookie", password: "askldjladd" }) {
+    username
+    password
+    createdAt
+  }
+}
+
+mutation {
+  CreateSnap(data: { 
+    user_id: "65b90fb1ac72c9d40dd23e6f", 
+    text: "hello cookie 2" 
+  }) {
+    id
+    text
+    createdAt
+  }
+}
+
+mutation {
+  SignIn(data: { 
+    username: "apsi", 
+    password: "111" 
+  }) {
+    token
+  }
+}

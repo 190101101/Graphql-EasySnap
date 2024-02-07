@@ -1,0 +1,8 @@
+npx create-react-app client
+npm install @apollo/client --save
+npm install react-router-dom@5.3.4 --save
+npm install jwt-decode --save
+npm install moment react-moment --save
+npm install react-timeago --save
+npm install env-cmd --save
+npm install subscriptions-transport-ws

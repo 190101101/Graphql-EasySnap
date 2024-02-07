@@ -1,0 +1,40 @@
+query{
+  user{
+    username
+    password
+    createdAt
+  }
+}
+
+query{
+  user(id:"65b90fb1ac72c9d40dd23e6f"){
+    id
+    username
+    password
+    createdAt
+  }
+}
+
+query{
+  users{
+    username
+    password
+    createdAt
+  }
+}
+
+query{
+  snaps{
+    id
+    text
+    createdAt
+  }
+}
+
+query{
+  snap(id:"65b92a71254582819b567449"){
+    id
+    text
+    createdAt
+  }
+}

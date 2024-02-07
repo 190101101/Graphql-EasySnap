@@ -1,0 +1,33 @@
+subscription{
+  SnapFilter(userId:"65b90fb1ac72c9d40dd23e6f"){
+    id
+    text
+    createdAt
+    user{
+      id
+      username
+      createdAt
+    }
+  }
+}
+
+subscription{
+  snap{
+    id
+    text
+    createdAt
+    user{
+      id
+      username
+      createdAt
+    }
+  }
+}
+
+subscription{
+  user{
+    id
+    username
+    createdAt
+  }
+}
